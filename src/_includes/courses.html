@@ -1,0 +1,15 @@
+{% for course in include.courses %}
+{% if course.year == include.year %}
+<dl class="dl-horizontal">
+    <dt>
+        {{ course.cursus }} / {{ course.code }}<br/>
+    </dt>
+    <dd>
+        <strong><span class="text-primary">{{ course.name }}</span></strong><br/>
+        {% if course.note %}<em>{{ course.note }}</em><br/>{% endif %}
+        {% if course.contents %}{{ course.contents | join: ", " }}<br/>{% endif %}
+        {{ course.parts | join: " + " }}
+    </dd>
+</dl>
+{% endif %}
+{% endfor %}

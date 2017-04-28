@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="starter-template">
+    <h1>Blog posts</h1>
+    <p class="lead">{{ page.title }}
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-10">
+        {% for post in site.categories[page.category] %}
+        <div><h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a></h2>
+            <p>{% include print_categories_for_thing.html thing=post %}</p>
+            <p class="text-muted">{{ post.date | date_to_string }}</p>
+        </div>
+        <blockquote>
+            {{ post.excerpt }}
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <button class="btn {{ site.link_btn_size }} {{ site.link_btn_color }}">read more</button>
+            </a>
+        </blockquote>
+        {% endfor %}
+    </div>
+    <div class="col-md-2">
+        {% include print_list_of_categories.html %}
+    </div>
+</div>

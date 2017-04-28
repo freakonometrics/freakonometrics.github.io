@@ -1,0 +1,231 @@
+{
+  "_comment": "if grouped is false then only one group should be defined for a better result",
+  "grouped": true,
+  "groups": [
+    {
+      "label": "Formal Methods applied to Software Engineering<br/>(synthesis of results 2006-2014)",
+      "talks": [
+        {
+          "title": "Formal Development of Choreographic Business Processes",
+          "occurrences": [
+            {
+              "at": "AFSEC WG day on Formal Methods and Business Processes",
+              "where": "Paris",
+              "date": "2014.10"
+            }
+          ]
+        },
+        {
+          "title": "Formal Model-Based Approaches for the Development of Composite Systems",
+          "occurrences": [
+            {
+              "at": "Invited seminar",
+              "where": "University of Málaga",
+              "date": "2014.03"
+            },
+            {
+              "at": "MeFoSyLoMa Group seminar",
+              "where": "Evry",
+              "date": "2012.02"
+            },
+            {
+              "at": "Habilitation thesis",
+              "where": "Paris Sud University",
+              "date": "2011.11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Model-Based Testing",
+      "talks": [
+        {
+          "title": "Testing Web Service Orchestrations",
+          "occurrences": [
+            {
+              "at": "Invited seminar",
+              "where": "University of Málaga",
+              "date": "2009.05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Software Adaptation",
+      "talks": [
+        {
+          "title": "Model-Based Software Adaptation. Introduction and Contributions",
+          "occurrences": [
+            {
+              "at": "Invited Seminar",
+              "where": "ADAM Project-Team, INRIA Lille - Nord Europe, Lille",
+              "date": "2010.01"
+            },
+            {
+              "at": "Invited Seminar",
+              "where": "Information Systems Group, IEIS, T.U. Eindhoven",
+              "date": "2009.11"
+            },
+            {
+              "at": "NICTA-INRIA/LAAS/LRI meeting",
+              "where": "LRI, Paris Sud University",
+              "date": "2009.07"
+            }
+          ]
+        },
+        {
+          "title": "Adaptation of Service Protocols using Process Algebra and On-the-Fly Reduction Techniques",
+          "occurrences": [
+            {
+              "at": "ForTesSe seminar",
+              "where": "LRI, Paris Sud University",
+              "date": "2008.11"
+            },
+            {
+              "at": "ANR PERSO project meeting",
+              "where": "IBISC, University of Evry",
+              "date": "2008.11"
+            }
+          ]
+        },
+        {
+          "title": "Model-Based Software Adaptation. Introduction and Contributions",
+          "occurrences": [
+            {
+              "at": "PGL team seminar",
+              "where": "LRI, Paris Sud University",
+              "date": "2007.10"
+            }
+          ]
+        },
+        {
+          "title": "Model-based Software Adaptation. Open Systems & Semantics",
+          "occurrences": [
+            {
+              "at": "Invited Seminar",
+              "where": "University of Málaga",
+              "date": "2007.03"
+            }
+          ]
+        },
+        {
+          "title": "Adaptation Logicielle",
+          "occurrences": [
+            {
+              "at": "RMF team seminar",
+              "where": "IBISC, Evry",
+              "date": "2006.09"
+            },
+            {
+              "at": "LIS Team Seminar",
+              "where": "IBISC, Evry",
+              "date": "2006.06"
+            },
+            {
+              "at": "INRIA Rhône-Alpes Seminar",
+              "where": "Grenoble",
+              "date": "2006.05"
+            },
+            {
+              "at": "MeFoSyLoMa Group Seminar",
+              "where": "Paris 13 University",
+              "date": "2006.05"
+            },
+            {
+              "at": "ACI FIACRE Project Meeting",
+              "where": "ENST, Paris",
+              "date": "2006.02"
+            },
+            {
+              "at": "ARLES Seminar",
+              "where": "INRIA Paris",
+              "date": "2006.01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Integrated Formal Methods (data+behaviours)",
+      "talks": [
+        {
+          "title": "Extension of Behaviours with Formal Datatypes",
+          "occurrences": [
+            {
+              "at": "Invited Seminar",
+              "where": "University of Extremadura",
+              "date": "2005.06"
+            },
+            {
+              "at": "Invited Seminar",
+              "where": "University of Málaga",
+              "date": "2005.06"
+            }
+          ]
+        },
+        {
+          "title": "Formal Methods for Component Description, Coordination and Adaptation. A position, some facts and some open issues",
+          "occurrences": [
+            {
+              "at": "Co-organizer Position at WCAT'04",
+              "where": "Oslo",
+              "date": "2004.06"
+            }
+          ]
+        },
+        {
+          "title": "Intégration de données formelles dans les diagrammes d'états. Application aux diagrammes d'état d'UML",
+          "occurrences": [
+            {
+              "at": "QSL Seminar",
+              "where": "Nancy",
+              "date": "2003.03"
+            }
+          ]
+        },
+        {
+          "title": "Aspects et mixité dans les spécifications",
+          "occurrences": [
+            {
+              "at": "LaMI Seminar",
+              "where": "Evry",
+              "date": "2002.12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Projects",
+      "talks": [
+        {
+          "title": "Projet ANR PERSO",
+          "occurrences": [
+            {
+              "at": "Colloquim of the National Agency for Research",
+              "where": "Lyon",
+              "date": "2012.01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Diverse",
+      "talks": [
+        {
+          "title": "Shell Scripting for Scientific Programming: the Python example",
+          "occurrences": [
+            {
+              "at": "International Workshop on Computing for Heavy Ion Physics",
+              "where": "Nantes",
+              "date": "2005.04"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

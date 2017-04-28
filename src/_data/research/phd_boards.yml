@@ -1,0 +1,135 @@
+- name: "Imen Boudhiba"
+  type: PHD
+  role: REVIEWER
+  title: "Model-Based Testing over IOSTS Enriched with Function Calls"
+  institution: "Centrale Supélec and Université Paris Saclay"
+  country: "France"
+  date: 2017/03/02
+
+- name: "Karn Yongsiriwit"
+  type: PHD
+  role: REVIEWER
+  title: "Modelling and Mining Process Variants in Cloud Environments"
+  institution: "Télécom SudParis and Université Paris Saclay"
+  country: "France"
+  date: 2017/01/23
+
+- name: "Thi Mai Nguyen"
+  type: PHD
+  role: CHAIR
+  title: "Une approche MDE pour construire des systèmes d’information sécurisés"
+  institution: "Télécom SudParis and Université Paris Saclay"
+  country: "France"
+  date: 2017/01/13
+
+- name: "Vincenzo Musco"
+  type: PHD
+  role: REVIEWER
+  title: "Propagation Analysis based on Software Graphs and Synthetic Data"
+  institution: "Université de Lille"
+  country: "France"
+  date: 2016/11/03
+
+- name: "Jabier Martinez"
+  type: PHD
+  role: COCHAIR
+  title: "Mining Software Artefact Variants for Product Line Migration and Analysis"
+  institution: "Université du Luxembourg / Université Pierre et Marie Curie"
+  country: "Luxembourg"
+  date: 2016/10/19
+
+- name: "Yakoub Nemouchi"
+  type: PHD
+  role: CHAIR
+  title: "Model-based Testing of Operating System-Level Security Mechanisms"
+  institution: "Université Paris Saclay"
+  country: "France"
+  date: 2016/03/30
+
+- name: "Hanen Ochi"
+  type: PHD
+  role: EXAMINER
+  title: "Abstraction and Modular Verification of Inter-Entreprise Business Processes"
+  institution: "Université Paris Nord"
+  country: "France"
+  date: 2015/12/11
+
+- name: "Olga Kondratyeva"
+  type: PHD
+  role: CHAIR
+  title: "Timed FSM Strategy for Optimizing Web Service Compositions w.r.t. the Quality and Safety Issues"
+  institution: "Télécom SudParis and Université Paris Saclay"
+  country: "France"
+  date: 2015/12/03
+
+- name: "Rim Abid"
+  type: PHD
+  role: REVIEWER
+  title: "Coordination and Reconfiguration of Distributed Cloud Applications"
+  institution: "Université de Grenoble"
+  country: "France"
+  date: 2015/12/16
+
+- name: "Mohamed Graiet"
+  type: HABIL
+  role: REVIEWER
+  title: "Une approche de vérification formelle des architectures logicielles à base de services et composants-services"
+  institution: "Université Paris Dauphine"
+  country: "France"
+  date: 2015 # TODO: préciser la date
+
+- name: "Mourad Amziani"
+  type: PHD
+  role: REVIEWER
+  title: "Modeling, Evaluating and Provisioning of Elastic Service-based Business Processes in the Cloud"
+  institution: "Télécom SudParis et Université d'Evry Val d'Essonne"
+  country: "France"
+  date: 2015 # TODO: préciser la date
+
+- name: "Hernan Ponce de Leon"
+  type: PHD
+  role: EXAMINER
+  title: "Testing Concurrent Systems through Event Structures"
+  institution: "ENS Cachan"
+  country: "France"
+  date: 2014/11/7
+
+#— PhD - Dimitris Vekris (as chair of the board, ”président du jury”) Véri cation de spéci cations EB3 à l’aide de model checking Université Paris Est, France, 2014.
+#— PhD - Mayleen Lacouture (as reporter)
+#A Chemical Programming Language for Orchestrating Services Application to Interoperability Problems
+#Université Nantes Angers Le Mans, France, 2014.
+#23
+#— PhD - Aloïs Dreyfus (as member of the board, ”examinateur”)
+#Contributions à la véri cation et à la validation e caces fondées sur des modèles Université de Franche-Comté, France, 2014.
+#— PhD - José Manuel García-Alonso (as reporter for European  esis) Architecturas multicapa : Acercando el diseño a la implementación Universidad de Extremadura, Spain, 2014.
+#— PhD - Riad Belkhatir (as reporter)
+#Contribution à l’automatisation et à l’évaluation des architectures logicielles ouvertes Université de Nantes, France, 2014.
+#— PhD - Viet-Hoa Nguyen (as member of the board, ”examinateur”)
+#Une méthode fondée sur les modèles pour gérer les propriétés temporelles des systèmes à composants logiciels
+#Université Rennes 1, France, 2013.
+#— PhD - Khanh Dung Tran (as reporter)
+#Rigorous and Formal Approaches for Modelling and Designing Service Systems Université Paris Nord, France, 2013.
+#— PhD - Aymen Baouab (as chair of the board, ”président du jury”)
+#Gouvernance et supervision décentralisée des chorégraphies inter-organisationnelles Université de Lorraine, France, 2013.
+#— PhD - Elie Fares (as reporter)
+#Real-Time Systems Re nement. Application to the Veri cation of Web Services Université de Toulouse, France, 2013.
+#— PhD - Mehdi Chouiten (as chair of the board, ”président du jury”) Architecture distribuée dédiée aux applications de Réalité Augmentée mobile Université d’Evry Val d’Essonne, France, 2013.
+#— PhD - Alfred Sanogo (as member of the board, ”examinateur”) Méthodologie de conception des modèles exprimés en réseaux de Petri Ra nement des réseaux de Petri colorés
+#Université Paris Nord, France, 2012.
+#— Habilitation - Ludovic Henrio (as reporter)
+#Formal Models for Programming and Composing Correct Distributed Systems Université Nice Sophia Antipolis, France, 2012.
+#— PhD - José Antonio Martín Baena (as reporter for European  esis) Secure Adaptation of So ware Services
+#Universidad de Málaga, Spain, 2012.
+#— PhD - Meriem Ouederni (as member of the board, ”vocale”)
+#On Checking the Compatibility of Service Interaction Protocols Universidad de Málaga, Spain, 2011.
+#— PhD - Javier Cubo Vilalba (as reporter for European  esis)
+#DAMASCO - Discovery, Adaptation and Monitoring of Context-Aware Services and Compo- nents
+#Universidad de Málaga, Spain, 2010.
+#— PhD - Aitor Urbieta (as reporter for European  esis)
+#Enfoque integrado para el modelado, emparejamiento y composición sensible al contexto de servicios semánticos, basado en precondiciones y e ectos, orientado a entornos inteligentes Mondragón Unibertsitatea, Spain, 2010.
+#24
+#— PhD - Javier Cámara Moreno (as member of the board, ”vocale”) Run-Time Behavioural Adaptation of Components and Services Universidad de Málaga, Spain, 2009.
+#— PhD - Miguel Ángel Pérez Toledano (as member of the board, ”vocale”)
+#Titán : un marco de trabajo para el estudio de la integración de aspectos en sistemas so ware Universidad de Extremadura, Spain, 2008.
+#— PhD - Leire Etxeberria (as reporter for European  esis)
+#Evaluación de atributos de calidad en líneas de productos so ware de forma efectiva en costes Mondragón Unibertsitatea, Spain, 2008.

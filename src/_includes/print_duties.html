@@ -1,0 +1,13 @@
+{% for category in include.duties %}
+<h3>{{ category.name }}</h3>
+<dl class="dl-horizontal">
+    {% for duty in category.values %}
+    <dt>{{ duty.period }}</dt>
+    <dd>
+        <span class="text-primary"><strong>{{ duty.name }}</strong></span><br/>
+        {{ duty.at }}<br/>
+        <em>{{ duty.role }}</em>
+    </dd>
+    {% endfor %}
+</dl>
+{% endfor %}

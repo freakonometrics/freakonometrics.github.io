@@ -1,0 +1,384 @@
+- year: 2017
+  values:
+    - name: ICSE-Posters
+      url: http://icse2017.gatech.edu/posters
+      role: PC
+      category: INTWK
+    - name: ICSOC
+      url: http://www.icsoc.spilab.es
+      role: PC
+      category: INTCONF
+    - name: PetriNets
+      url: http://pn2017.unizar.es
+      role: PC
+      category: INTCONF
+    - name: WETICE
+      url: http://wetice2017.ue.poznan.pl/
+      role: SC
+      category: INTCONF
+- year: 2016
+  values:
+    - name: ModComp
+      url: http://www.mrtc.mdh.se/ModComp16/
+      role: PC
+      category: INTWK
+    - name: WETICE
+      url: http://wetice2016.lip6.fr/
+      role: PCC
+      category: INTCONF
+    - name: VeryComp
+      url: http://verycomp2016.disim.univaq.it/
+      role: PC
+      category: INTWK
+    - name: IWAISE
+      url: http://iwaise16.univ-lille1.fr/
+      role: PCC
+      category: INTWK
+    - name: CAL
+      url: http://cal-conference.fr/
+      role: PC
+      category: NATCONF
+    - name: PetriNets
+      url: http://pn2016.mat.umk.pl
+      role: PC
+      category: INTCONF
+    - name: ICSOC
+      url: http://cs.adelaide.edu.au/~icsoc2016/
+      role: PC
+      category: INTCONF
+    - name: AFADL
+      url: http://afadl2016.conf.citi-lab.fr
+      role: PC
+      category: NATCONF
+- year: 2015
+  values:
+    - name: WAS4FI
+      url: http://was4fi.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: ModComp
+      url: http://www.mrtc.mdh.se/ModComp15/
+      role: PC
+      category: INTWK
+    - name: ICSOC
+      url: http://www.icsoc.org/
+      role: PC
+      category: INTCONF
+    - name: MRI-BP
+      url: http://www.mri-bp.org/
+      role: PC
+      category: INTWK
+    - name: SCART
+      url: http://scart2015.disim.univaq.it/
+      role: PC
+      category: INTWK
+    - name: AFADL
+      url: http://events.femto-st.fr/afadl-2015/
+      role: PC
+      category: NATCONF
+    - name: CAL
+      url: http://conf.laas.fr/CAL2015/
+      role: PC
+      category: NATCONF
+    - name: CIEL
+      url: http://share-irisa.univ-ubs.fr/ciel2015/
+      role: PC
+      category: NATCONF
+- year: 2014
+  values:
+    - name: ICSOC
+      url: http://www.icsoc.org/
+      role: PC
+      category: INTCONF
+    - name: ICWS
+      url: http://conferences.computer.org/icws/2014/
+      role: PC
+      category: INTCONF
+    - name: FOCLASA
+      url: http://foclasa.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: ModComp
+      url: http://www.mrtc.mdh.se/ModComp14/
+      role: PC
+      category: INTWK
+    - name: ORCHOR
+      url: http://orchor2014.disim.univaq.it/
+      role: PC
+      category: INTWK
+    - name: WAS4FI
+      url: http://was4fi.lcc.uma.es/was4fi2014/
+      role: PC
+      category: INTWK
+    - name: WS-FMDS
+      url: http://antares.sip.ucm.es/ws-fmds2014/
+      role: PC
+      category: INTWK
+    - name: AFADL
+      url: http://afadl2014.lacl.fr/
+      role: PC
+      category: NATCONF
+    - name: CIEL
+      url: http://ciel2014.i3s.unice.fr/
+      role: PC
+      category: NATCONF
+- year: 2013
+  values:
+    - name: CBSE
+      url: http://cbse-conferences.org/2013/
+      role: PC
+      category: INTCONF
+    - name: FACS
+      url: http://www.jxcsst.com/facs2013/
+      role: PC
+      category: INTCONF
+    - name: ICWS
+      url: http://conferences.computer.org/icws/2013/
+      role: PC
+      category: INTCONF
+    - name: FOCLASA
+      url: http://foclasa.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: CloudCup
+      url: http://www.servicescongress.org/2013/servicescup.html
+      role: PC
+      category: INTWK
+    - name: MODA
+      url: http://www.modelsward.org/MODA.aspx
+      role: PC
+      category: INTWK
+    - name: MRI-BP
+      url: http://www.latece.uqam.ca/mri-bp/
+      role: PC
+      category: INTWK
+    - name: WS-FMDS
+      url: http://antares.sip.ucm.es/ws-fmds2013/
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://cal2013.ypbl.net/
+      role: PC
+      category: NATCONF
+    - name: CIEL
+      url: https://sites.google.com/site/gdrgpl2013/ciel
+      role: PC (co-organiser, co-chair)
+      category: NATCONF
+- year: 2012
+  values:
+    - name: FACS
+      url: http://www.cmu.edu/silicon-valley/facs12/
+      role: PC
+      category: INTCONF
+    - name: ICEBE
+      url: http://conferences.computer.org/icebe/
+      role: PC
+      category: INTCONF
+    - name: ICSOC
+      url: http://www.icsoc.org/
+      role: PC
+      category: INTCONF
+    - name: ICSOFT
+      url: http://www.icsoft.org/
+      role: PC
+      category: INTCONF
+    - name: ICWS
+      url: http://conferences.computer.org/icws/2012/
+      role: PC
+      category: INTCONF
+    - name: FOCLASA
+      url: http://foclasa.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: ServiceCup
+      url: http://www.servicescongress.org/2012/servicescup.html
+      role: PC
+      category: INTWK
+    - name: WS-FMDS
+      url: http://antares.sip.ucm.es/ws-fmds2012/
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://www.lina.univ-nantes.fr/conf/cal2012
+      role: PC
+      category: NATCONF
+    - name: CIEL
+      url: http://gpl2012.irisa.fr/?q=ciel
+      role: PC
+      category: NATCONF
+- year: 2011
+  values:
+    - name: CSSE
+      url: http://csse2011.ce.sharif.edu/
+      role: PC
+      category: INTCONF
+    - name: ICEBE
+      url: http://conferences.computer.org/icebe/
+      role: PC
+      category: INTCONF
+    - name: ICSOFT
+      url: http://www.icsoft.org/
+      role: PC
+      category: INTCONF
+    - name: ICWS
+      url: http://conferences.computer.org/icws/2011/
+      role: PC
+      category: INTCONF
+    - name: CAMPUS
+      url: http://campus11.ifi.uio.no/
+      role: PC
+      category: INTWK
+    - name: ICSOC-PhD-Symposium
+      url: http://www.icsoc2011.cs.ucy.ac.cy/index.php?p=CallForPhDSymp
+      role: PC
+      category: INTWK
+    - name: ServiceCup
+      url: http://iscc.servicescomputing.org/2011/
+      role: PC
+      category: INTWK
+    - name: WS-FMDS
+      url: http://antares.sip.ucm.es/ws-fmds2011/
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://cal2011.redcad.org/
+      role: PC
+      category: NATCONF
+- year: 2010
+  values:
+    - name: ICEBE
+      url: http://conferences.computer.org/icebe/
+      role: PC
+      category: INTCONF
+    - name: ICSOFT
+      url: http://www.icsoft.org/
+      role: PC
+      category: INTCONF
+    - name: AVYTAT
+      url: http://www.onthemove-conferences.org/index.php/avytat2010
+      role: PC
+      category: INTWK
+    - name: CAMPUS
+      url: http://campus10.ifi.uio.no/
+      role: PC
+      category: INTWK
+    - name: FOCLASA
+      url: http://foclasa.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: WCSI
+      url: http://wcsi10.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: ServiceCup
+      url: http://iscc.servicescomputing.org/2010/
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://cal-idm-lmo-gpl-2010.univ-pau.fr/
+      role: PC
+      category: NATCONF
+- year: 2009
+  values:
+    - name: ICEBE
+      url: http://conferences.computer.org/icebe/
+      role: PC
+      category: INTCONF
+    - name: ICSOFT
+      url: http://www.icsoft.org/
+      role: PC
+      category: INTCONF
+    - name: FOCLASA
+      url: http://foclasa09.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: MOCA
+      url: http://www.informatik.uni-hamburg.de/TGI/events/moca09/
+      role: PC
+      category: INTWK
+    - name: ORGMOD
+      url: http://www.informatik.uni-hamburg.de/TGI/events/orgmod09/
+      role: PC
+      category: INTWK
+    - name: WASELF
+      url: http://waself.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://cal-idm-lmo-2009.loria.fr/CAL/cal.html
+      role: PC
+      category: NATCONF
+- year: 2008
+  values:
+    - name: ICEBE
+      url: http://conferences.computer.org/icebe/index.htm
+      role: PC
+      category: INTCONF
+    - name: FACS
+      url: http://facs08.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: FOCLASA
+      url: http://foclasa08.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: SASE
+      url: http://ocm.ensm-douai.fr/conf/SASE2008
+      role: PC
+      category: INTWK
+    - name: WASELF
+      url: http://waself.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://cal08.iro.umontreal.ca
+      role: PC
+      category: NATCONF
+- year: 2007
+  values:
+    - name: FOCLASA
+      url: http://foclasa07.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: ProVeCS
+      url: http://lina.atlanstic.net/provecs/2007/
+      role: PC
+      category: INTWK
+    - name: WCAT
+      url: http://wcat.unex.es/wcat07/
+      role: PC
+      category: INTWK
+- year: 2006
+  values:
+    - name: FOCLASA
+      url: http://foclasa06.lcc.uma.es/
+      role: PC
+      category: INTWK
+    - name: WCAT
+      url: http://wcat06.unex.es
+      role: PC
+      category: INTWK
+    - name: CAL
+      url: http://www.sciences.univ-nantes.fr/lina/cal2006/
+      role: PC
+      category: NATCONF
+    - name: OCM-SI
+      url: http://inforsid2006.liris.cnrs.fr/OCM.htm
+      role: PC
+      category: NATWK
+- year: 2005
+  values:
+    - name: WCAT
+      url: http://wcat05.unex.es
+      role: PC
+      category: INTWK
+    - name: OCM-SI
+      url: http://inforsid2005.imag.fr/OCM.htm
+      role: PC
+      category: NATWK
+- year: 2004
+  values:
+    - name: WCAT
+      url: http://wcat04.unex.es
+      role: PC
+      category: INTWK

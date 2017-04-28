@@ -1,0 +1,25 @@
+<div class="well">
+    <h4>categories</h4>
+    <div class="btn-group-vertical" role="group" aria-label="categories">
+
+        <div class="btn-group" role="group">
+            <a href="{{ site.blog_dir | prepend: site.baseurl }}">
+                <button class="btn {{ site.link_btn_size }} {{ site.link_btn_color }}">
+                    <strong>all</strong> <span class="badge">{{ site.posts.size }}</span>
+                </button>
+            </a>
+        </div>
+
+        {% assign sorted_categories = site.categories | sort: %}
+        {% for category in sorted_categories %}
+        <div class="btn-group" role="group">
+            <a href="{{ category | first | prepend: site.category_dir | prepend: site.baseurl }}/">
+                <button class="btn {{ site.link_btn_size }} {{ site.link_btn_color }}">
+                    {{ category | first }} <span class="badge">{{ site.categories[category.first].size}}</span>
+                </button>
+            </a>
+        </div>
+        {% endfor %}
+
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{% for category in include.thing.categories %}
+<a href="{{ category | prepend: site.category_dir | prepend: site.baseurl }}">
+    <button class="btn {{ site.link_btn_size }} {{ site.link_btn_color }}">
+        {{ category }} <span class="badge">{{ site.categories[category].size}}</span>
+    </button>
+</a>
+{% endfor %}

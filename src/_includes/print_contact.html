@@ -1,0 +1,14 @@
+<address>{{ include.contact.address }}</address>
+
+<p><a href="mailto:{{ include.contact.email }}">{{ include.contact.email }}</a>
+</p>
+
+<p>
+    <i class="glyphicon glyphicon-map-marker"></i>
+    {{ include.contact.direction.address }} -
+    <a href="{{ include.contact.direction.map }}">map</a><br/>
+    <i class="fa fa-subway"></i>
+    {{ include.contact.direction.public_transportation.stop }} -
+    <a href="{{ include.contact.direction.public_transportation.link }}">compute route</a>
+</p>
+

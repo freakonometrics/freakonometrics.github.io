@@ -1,0 +1,30 @@
+---
+layout: default
+title: duties
+rank: 3
+---
+
+<div class="starter-template">
+    <h1>Duties</h1>
+</div>
+
+<div class="row">
+
+    <div class="col-md-6">
+
+        <h2><span class="text-primary">Currently</span></h2>
+
+        {% include print_duties.html duties=site.data.duties.currently %}
+
+    </div>
+
+    <div class="col-md-6">
+
+        <h2><span class="text-primary">Before</span></h2>
+
+        {% include print_duties.html duties=site.data.duties.before %}
+
+    </div>
+
+</div>
+

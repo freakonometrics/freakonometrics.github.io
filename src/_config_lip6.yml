@@ -1,0 +1,6 @@
+# specific definitions for the lip6 site
+
+# base of your site relative to the root of the Web site, eg /Pascal.Poizat or ""
+baseurl: "/Pascal.Poizat"
+# URL of your site, eg https://pages.lip6.fr/Pascal.Poizat or http://pascalpoizat.github.io
+url: "https://pages.lip6.fr/Pascal.Poizat"

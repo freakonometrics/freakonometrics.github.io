@@ -1,0 +1,32 @@
+# Advisory
+# limited to PhD students, TODO add Master students and postdocs
+#
+# first of the advisors is the director
+# references refer to references.bib in _bibliography
+
+- name: "Rania Khéfifi"
+  title: "Informations personnelles sensibles aux contextes : modélisation, interrogation et composition"
+  begin: "10/2010"
+  end: "09/2014"
+  funding: "ANR PIMI project"
+  advisors: ["Pascal Poizat": 50, "Fatiha Saïs": 50]
+  publications: ["PP_KPS12a","PP_KPS12b","PP_KPS13"]
+  url: "" # TODO
+
+- name: "Huu Nghia Nguyen"
+  title: "A Symbolic Approach for the Verification and the Test of Service Choreographies"
+  begin: "01/2010"
+  end: "10/2013"
+  funding: "allocation doctorale"
+  advisors: ["Fatiha Zaïdi": 50, "Pascal Poizat": 50]
+  publications: ["PP_NPZ12a","PP_NPZ12b","PP_NPZ12c","PP_NPZ13"]
+  url: "" # TODO
+
+- name: "Lina Bentakouk"
+  title: "Test symbolique de services Web composites"
+  begin: "12/2007"
+  end: "12/2011"
+  funding: "ANR WEBMOV project"
+  advisors: ["Marie-Claude Gaudel": 20, "Pascal Poizat": 40, "Fatiha Zaïdi": 40]
+  publications: ["PP_BPZ09","PP_BPZ11"]
+  url: "" # TODO

@@ -1,0 +1,141 @@
+#
+# SITE SETTINGS
+#
+
+# site information
+
+title: pascal.poizat
+description: > # this means to ignore newlines until the next tag
+  Professor at Université Paris Nanterre<br/>
+  LIP6 UMR 7606 CNRS
+author: Pascal Poizat
+# base of your site relative to the root of the Web site, eg /Pascal.Poizat or ""
+baseurl: ""
+# URL of your site, eg https://pages.lip6.fr/Pascal.Poizat or http://pascalpoizat.github.io
+url: "http://pascalpoizat.github.io"
+blog_dir: /blog
+permalink: /blog/posts/:year/:month/:day/:title/ # prefixed style
+category_dir: /blog/categories/
+category_title_prefix: "category: "
+
+# author information
+
+picture: images/pascalpoizat.jpg
+email: firstname.lastname@gmail.com
+
+networks:
+  twitter:
+    url: https://twitter.com/
+    username: pascalpoizat
+  github:
+    url: https://github.com/
+    username: pascalpoizat
+  dblp:
+    url: http://www.informatik.uni-trier.de/~ley/pers/hd/
+    username: p/Poizat:Pascal
+
+bio:
+  with-logos: false
+
+contacts:
+  research:
+    email: firstname.lastname@lip6.fr
+    address: >
+      LIP6 - CNRS UMR 7606<br/>
+      Université Pierre et Marie Curie<br/>
+      4 place Jussieu<br/>
+      75252 PARIS Cedex 05<br/>
+      France
+    direction:
+      address: >
+        aisle 25-26, office 215
+      map: http://maps.google.fr/maps?q=LIP6,+Place+Jussieu,+Paris&hl=fr&ll=48.846954,2.354357&spn=0.003392,0.004823&sll=48.847111,2.357037&sspn=0.006785,0.009645&oq=LIP6&hq=LIP6,+Place+Jussieu,+Paris&radius=15000&t=m&z=18
+      public_transportation:
+        stop: Jussieu
+        link: http://www.ratp.fr/itineraires/en/ratp/recherche-avancee?end=Jussieu+%28METRO%29%2C+Paris
+  teaching:
+    email: firstname.lastname@u-paris10.fr
+    address: >
+      Dept. Math-Info, UFR SEGMI<br/>
+      Université Paris Nanterre<br/>
+      200 avenue de la République<br/>
+      92001 NANTERRE<br/>
+      France
+    direction:
+      address: >
+        building G, office E37
+      map: https://www.google.fr/maps/place/U.F.R.+Sciences+Économiques,+Gestion,+Mathématiques,+Informatique/@48.9037822,2.2150113,17z/data=!4m2!3m1!1s0x0:0xade365e28caa2d74
+      public_transportation:
+        stop: Nanterre Université
+        link: http://www.ratp.fr/itineraires/en/ratp/recherche-avancee?end=Nanterre-Universite+%28RER%29%2C+Nanterre
+
+# research
+
+research:
+  presentation:
+    overview: true
+    publications: true
+    talks:  false
+    conferences: true
+  restriction:
+      publications: 5
+      conferences: 10
+
+# apparence of posts
+
+# apparence of buttons
+
+link_btn_size: btn-xs
+link_btn_color: btn-primary
+publications_btn_size: btn-xs
+publications_btn_color: btn-default
+publications_btn_textcolor: text-primary
+
+# alerts
+
+alerts:
+  no-javascript:
+    danger: true
+    warning: true
+    information:  true
+
+# bibliography
+
+kind:
+  label: pp_kind # label used in .bib files to denote the kind (international/national) of references
+  separate:  # should international/national references be separated: (true | false)
+    article: true
+    inbook: false
+    inproceedings: true
+
+scholar:
+  style: _bibliography/mystyle.csl
+  locale: en
+  sort_by: year, pp_rank
+  order: descending
+  group_by: none
+  group_order: ascending
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings:    true
+  use_raw_bibtex_entry: false
+  bibtex_skip_fields: [pp_shortbooktitle, pp_rank, pp_kind]
+  # details_dir:    bibliography
+  # details_layout: bibtex.html
+  # details_link:   Details
+  query: "@*"
+
+# other settings
+
+exclude:  ['Gemfile*', '*.sh', 'update_site.sh']
+
+gems: ['jekyll/scholar']
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+     # input: GFM
+     syntax_highlighter: rouge

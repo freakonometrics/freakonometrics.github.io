@@ -1,0 +1,24 @@
+<div class="starter-template">
+    <p class="lead">depending on your concerns, please select one
+    </p>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-offset-0 col-md-3"></div>
+
+    <div class="col-sm-6 col-md-3">
+        <h4>Research | Recherche</h4>
+        {% include print_contact.html contact=site.contacts.research %}
+        <br/>
+    </div>
+
+    <div class="col-sm-6 col-md-3">
+        <h4>Teaching | Enseignement</h4>
+        {% include print_contact.html contact=site.contacts.teaching %}
+        <br/>
+    </div>
+
+    <div class="col-sm-offset-0 col-md-3"></div>
+
+</div>

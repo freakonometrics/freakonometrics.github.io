@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p>{% include print_categories_for_thing.html thing=page %}</p>
+        <p class="post-meta">
+            {{ page.date | date_to_string }}<br/>
+            {% if page.meta %}{{ page.meta }}<br/>{% endif %}
+        </p>
+        <hr>
+    </header>
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+
+</div>

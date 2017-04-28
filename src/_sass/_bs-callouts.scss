@@ -1,0 +1,61 @@
+/* Side notes for calling out things
+from : https://gist.github.com/matthiasg/6153853
+modified by Pascal Poizat (@pascalpoizat):
+- using bootstrap _alerts and _variables values
+- colored text in alerts
+TODO: Should be enhanced using bootstrap alerts + variants
+-------------------------------------------------- */
+
+@import "bootstrap";
+
+/* Base styles (regardless of theme) */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: $alert-danger-bg; // original: #fcf2f2;
+  border-color: $alert-danger-text; // original: #dFb5b4;
+  color: $alert-danger-text; // original: none
+}
+.bs-callout-warning {
+  background-color: $alert-warning-bg; // original: #fefbed;
+  border-color: $alert-warning-text; // original: #f1e7bc;
+  color: $alert-warning-text; // original: none
+}
+.bs-callout-info {
+  background-color: $alert-info-bg;
+  border-color: $alert-info-text; // original: #d0e3f0;
+  color: $alert-info-text; // original: none
+}
+
+// added by Pascal Poizat
+
+div.bs-callout-danger a {
+  color: darken($alert-danger-text, 10%);
+  font-weight: bold;
+}
+
+div.bs-callout-warning a {
+  color: darken($alert-warning-text, 10%);
+  font-weight: bold;
+}
+
+div.bs-callout-info a {
+  color: darken($alert-info-text, 10%);
+  font-weight: bold;
+}
+

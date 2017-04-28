@@ -1,0 +1,44 @@
+---
+layout: default
+title: research
+rank: 2
+---
+
+{% if site.research.presentation.overview %}
+<h2><span class="text-primary">Overview</span></h2>
+{% include research_overview.html %}
+{% endif %}
+
+<div class="row">
+
+    <div class="col-md-8">
+
+        {% if site.research.presentation.talks %}
+        <h2 id="SelectedTalks"><span class="text-primary">Selected Talks</span></h2>
+        {% include print_talks.html talks=site.data.talks.selected %}
+        {% endif %}
+
+        {% if site.research.presentation.publications %}
+        <h2 id="Publications"><span class="text-primary">Publications</span></h2>
+        <div class="btn-group" role="group" aria-label="publication databases">
+            {% for db in site.data.research.databases %}
+            <a href="{{ db.url }}">{{ db.name }}</a>
+            {% endfor %}
+        </div>
+        {% assign interval=site.research.restriction.publications %}
+        {% include publications.html nbyears=interval %}
+        {% endif %}
+
+    </div>
+
+    <div class="col-md-4">
+
+        {% if site.research.presentation.conferences %}
+        <h2 id="Conferences"><span class="text-primary">Committees</span></h2>
+        {% assign interval=site.research.restriction.conferences %}
+        {% include print_conferences.html nbyears=interval %}
+        {% endif %}
+
+    </div>
+
+</div>

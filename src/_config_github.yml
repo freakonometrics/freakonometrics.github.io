@@ -1,0 +1,6 @@
+# specific definitions for the github site
+
+# base of your site relative to the root of the Web site, eg /Pascal.Poizat or ""
+baseurl: ""
+# URL of your site, eg https://pages.lip6.fr/Pascal.Poizat or http://pascalpoizat.github.io
+url: "http://pascalpoizat.github.io"

@@ -1,0 +1,78 @@
+---
+---
+<div>
+    <div class="text-justify">
+        {{reference}}
+    </div>
+
+    {% if entry.note %}
+    <div>
+        <em>{{ entry.note }}</em>
+    </div>
+    {% endif %}
+
+    <div>
+
+        <div class="btn-group">
+            <button type="button"
+                    class="btn btn-default disabled {{site.publications_btn_size}}"
+                    data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                bib entry
+            </button>
+        </div>
+
+        {% if entry.doi or entry.hal_id or entry.optlink %}
+        <div class="btn-group">
+            {% if entry.doi %}
+            <a href="{{ entry.doi | prepend: 'http://doi.org/' }}">
+                <button type="button"
+                        class="btn {{site.publications_btn_color}} {{site.publications_btn_size}}"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    <span class="{{site.publications_btn_textcolor}}">doi</span>
+                </button>
+            </a>
+            {% endif %}
+            {% if entry.hal_id %}
+            <a href="{{ entry.hal_id | prepend: 'http://hal.inria.fr/' }}">
+                <button type="button"
+                        class="btn {{site.publications_btn_color}} {{site.publications_btn_size}}"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    <span class="{{site.publications_btn_textcolor}}">hal</span>
+                </button>
+            </a>
+            {% endif %}
+            {% if entry.optlink %}
+            <a href="{{ entry.doi | prepend: 'http://doi.org/' }}">
+                <button type="button"
+                        class="btn {{site.publications_btn_color}} {{site.publications_btn_size}}"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    <span class="{{site.publications_btn_textcolor}}">link</span>
+                </button>
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% if entry.pdf %}
+        <div class="btn-group">
+            {% if entry.pdf %}
+            <a href="{{ entry.optlink }}">
+                <button type="button"
+                        class="btn {{site.publications_btn_color}} {{site.publications_btn_size}}"
+                        data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                    <span class="{{site.publications_btn_textcolor}}">pdf</span>
+                </button>
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+    </div>
+    <br/>
+
+</div>

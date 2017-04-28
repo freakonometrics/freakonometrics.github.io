@@ -1,0 +1,30 @@
+- name: pedagogic
+  values:
+
+  - period: since 2012
+    name: Master MIAGE (Formation initiale et formation professionnelle)
+    role: Director
+    at: Université Paris Nanterre
+
+- name: scientific
+  values:
+
+  - period: since 2017
+    name: ANR PARDI project # http://pardi.enseeiht.fr
+    role: Scientific coordinator for the LIP6 lab.
+    at: Generic Programme, National Agency for Research
+
+  - period: since 2016
+    name: Academic Council | Conseil Académique
+    role: Member, Member of the Research Committee
+    at: Université Paris Lumières (COMUE)
+
+  - period: since 2014
+    name: Laboratory Council | Conseil de Laboratoire
+    role: Member
+    at: LIP6 Laboratory
+
+  - period: since 2013
+    name: CS Advisory Council | CCD Sect. 27
+    role: Member
+    at: Université Paris Nanterre
