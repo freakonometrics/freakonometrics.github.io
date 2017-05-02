@@ -1,3 +1,3 @@
-# pascalpoizat.github.io
+# freakonometrics.github.io
 
-[Web site](http://pascalpoizat.github.io)
+[Web site](http://freakonometrics.github.io)
