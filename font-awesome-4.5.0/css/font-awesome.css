@@ -1362,6 +1362,9 @@
 .fa-yahoo:before {
   content: "\f19e";
 }
+.fa-mastodon:before {
+  content: "\f4f6"; 
+}
 .fa-google:before {
   content: "\f1a0";
 }
