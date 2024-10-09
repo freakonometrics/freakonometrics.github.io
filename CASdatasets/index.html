@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Package CASdatasets</title>
+<link rel="stylesheet" type="text/css" href="./pub/web/CRAN_web.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="citation_title" content="CASdatasets: Insurance datasets [R package fitdistrplus version 1.2-0]">
+<meta name="citation_author1" content="Christophe Dutang">
+<meta name="citation_author2" content="Arthur Charpentier">
+<meta name="citation_publication_date" content="2024-10-09">
+<meta name="citation_public_url" content="https://freakonometrics.github.io/CASdatasets/">
+<meta name="og:title" content="CASdatasets: Insurance datasets">
+<meta name="og:description" content="A collection of insurance datasets, originally for the 
+  book 'Computational Actuarial Science with R' edited by Arthur Charpentier. 
+  Now, the package contains a large variety of actuarial datasets.">
+<meta name="og:type" content="website">
+</head>
+<body>
+    <h1>CASdatasets: Insurance datasets</h1>
+<p>A collection of datasets, originally for the book 'Computational Actuarial Science with R' edited by Arthur Charpentier 
+(<a href="https://www.routledge.com/Computational-Actuarial-Science-with-R/Charpentier/p/book/9781466592599">CAS with R</a>).
+Now, the package contains a large variety of actuarial datasets.</p>
+
+<table summary="Package CASdatasets summary">
+<tr><td valign="top">Version:</td>
+<td>1.2-0</td></tr>
+<tr><td valign="top">Depends:</td>
+    <td> R (>= 3.6.0), 
+        <a href="https://cran.r-project.org/package=xts">xts</a>, 
+        <a href="https://cran.r-project.org/package=survival">survival</a></td></tr>
+<tr><td valign="top">Imports:</td>
+    <td> <a href="https://cran.r-project.org/package=lattice">lattice</a></td></tr>
+<tr><td valign="top">Suggests:</td>
+    <td> 
+    <a href="https://cran.r-project.org/package=sp">sp</a>,
+    <a href="https://cran.r-project.org/package=sf">sf</a>;
+    <a href="https://cran.r-project.org/package=knitr">knitr</a>,
+    <a href="https://cran.r-project.org/package=kableExtra">kableExtra</a>,
+    <a href="https://cran.r-project.org/package=quarto">quarto</a>,
+    <a href="https://cran.r-project.org/package=rmarkdown">rmarkdown</a>;
+    <a href="https://cran.r-project.org/package=AER">AER</a>,
+    <a href="https://cran.r-project.org/package=boot">boot</a>,
+    <a href="https://cran.r-project.org/package=broom">broom</a>,
+    <a href="https://cran.r-project.org/package=ChainLadder">ChainLadder</a>,
+    <a href="https://cran.r-project.org/package=caret">caret</a>,
+    <a href="https://cran.r-project.org/package=demography">demography</a>,
+    <a href="https://cran.r-project.org/package=dplyr">dplyr</a>,
+    <a href="https://cran.r-project.org/package=forecast">forecast</a>,
+    <a href="https://cran.r-project.org/package=ggplot2">ggplot2</a>,
+    <a href="https://cran.r-project.org/package=glmnet">glmnet</a>,
+    <a href="https://cran.r-project.org/package=locfit">locfit</a>,
+    <a href="https://cran.r-project.org/package=MASS">MASS</a>,
+    <a href="https://cran.r-project.org/package=mgcv">mgcv</a>,
+    <a href="https://cran.r-project.org/package=pscl">pscl</a>,
+    <a href="https://cran.r-project.org/package=rainbow">rainbow</a>,
+    <a href="https://cran.r-project.org/package=ranger">ranger</a>,
+    <a href="https://cran.r-project.org/package=RColorBrewer">RColorBrewer</a>,
+    <a href="https://cran.r-project.org/package=tidyr">tidyr</a>,
+    <a href="https://cran.r-project.org/package=tidyverse">tidyverse</a>,
+    <a href="https://cran.r-project.org/package=wesanderson">wesanderson</a>
+    </td></tr>
+<tr><td valign="top">Published:</td>
+<td>2024-10-09</td></tr>
+<tr><td valign="top">Author:</td>
+<td>Christophe Dutang [aut, cre],  [ctb]
+    Christophe Dutang <a href="https://orcid.org/0000-0001-6732-1501" target="_top"><img alt="ORCID iD" src="pub/web/orcid.svg" style="width:16px; height:16px; margin-left:4px; margin-right:4px; vertical-align:middle"></a>
+    [aut, cre],
+    Arthur Charpentier <a href="https://orcid.org/0000-0003-3654-6286" target="_top"><img alt="ORCID iD" src="pub/web/orcid.svg" style="width:16px; height:16px; margin-left:4px; margin-right:4px; vertical-align:middle"></a>
+    [aut],
+    Ewen Gallic <a href="https://orcid.org/0000-0003-3740-2620" target="_top"><img alt="ORCID iD" src="pub/web/orcid.svg" style="width:16px; height:16px; margin-left:4px; margin-right:4px; vertical-align:middle"></a>
+    [ctb],
+    Julien Siharath [ctb].
+</td></tr>
+<tr><td valign="top">Maintainer:</td>
+<td>Christophe Dutang  &#x3c;&#x63;&#x68;&#x72;&#x69;&#x73;&#x74;&#x6f;&#x70;&#x68;&#x65;&#x2e;&#x64;&#x75;&#x74;&#x61;&#x6e;&#x67;&#x20;&#x61;&#x74;&#x20;&#x65;&#x6e;&#x73;&#x69;&#x6d;&#x61;&#x67;&#x2e;&#x66;&#x72;&#x3e;</td></tr>
+<tr><td valign="top">License:</td>
+<td><a href="https://cran.r-project.org/web/licenses/GPL-2">GPL-2</a> | <a href="https://cran.r-project.org/web/licenses/GPL-3">GPL-3</a> [expanded from: GPL (≥ 2)]</td></tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/dutangc/CASdatasets/issues" target="_top"><span class="GitHub">https://github.com/dutangc/CASdatasets/issues</span></a></td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://dutangc.github.io/CASdatasets/" target="_top">https://dutangc.github.io/CASdatasets/</a>
+</td>
+</tr>
+<tr><td valign="top">NeedsCompilation:</td> <td>yes</td></tr>
+<tr>
+<td>Citation:</td>
+<td>To cite CASdatasets in publications use:
+C. Dutang and A. Charpentier (2024),  CASdatasets: Insurance datasets,
+R package version 1.2-0, DOI <a href="https://doi.org/10.57745/P0KHAG">10.57745/P0KHAG</a>.
+</td>
+</tr>
+<tr><td valign="top">Materials:</td> <td><a href="./pub/web/NEWS.html">NEWS</a> </td>
+</tr>
+<tr>
+<td>In&nbsp;views:</td>
+<td><a href="https://cran.r-project.org/web/views/ActuarialScience.html"><span class="CRAN">ActuarialScience</span></a>
+</td>
+</tr>
+</table>
+
+<h4>Documentation:</h4>
+<table summary="Package CASdatasets documentation">
+  <tr> <td valign="top"> Reference&nbsp;manual: </td> 
+    <td> <a href="./pub/web/CASdatasets-manual.pdf"> CASdatasets.pdf </a> </td> </tr>
+  <tr>
+    <td>Overall vignette:</td>
+  <td>
+<a href="./pub/web/vignettes/CASdatasets.html"><span class="CRAN">CASdatasets overview</span></a><br/>
+  </td>
+  </tr> 
+  <tr>
+    <td>Non-life insurance vignettes:</td>
+  <td>
+<a href="./pub/web/vignettes/poisson_vignette.html"><span class="CRAN">Frequency analysis of a French MTPL dataset</span></a><br/>
+<a href="./pub/web/vignettes/quasi_poisson_vignette_ausprivauto0405.html"><span class="CRAN">Frequency analysis of an Australian MTPL dataset</span></a><br/>
+<a href="./pub/web/vignettes/zero_inflated_vignette.html"><span class="CRAN">Frequency analysis of a Norwegian MTPL dataset</span></a><br/>
+<a href="./pub/web/vignettes/zero_inflated_vignette_freMTPL.html"><span class="CRAN">Frequency analysis of a French MTPL dataset</span></a><br/>
+<a href="./pub/web/vignettes/gam_rc_phileas_vignette.html"><span class="CRAN">Frequency analysis of a Belgian MTPL dataset</span></a><br/>
+<a href="./pub/web/vignettes/triangle_vignette.html"><span class="CRAN">Claims reserving of a French MTPL triangle</span></a><br/>
+  </td>
+  </tr>
+  <tr>
+    <td>Other vignettes:</td>
+  <td>
+<a href="./pub/web/vignettes/calibration_metrics_vignette.html"><span class="CRAN">Calibration Metrics for RF and GLM Using French Insurance Data</span></a><br/>
+<a href="./pub/web/vignettes/triangle_aids_vignette.html"><span class="CRAN">Reserving exercice on reporting delays in AIDS Data</span></a><br/>
+<a href="./pub/web/vignettes/mortality_vignette.html"><span class="CRAN">Mortality Table Analysis: A Study of French Mortality Data</span></a><br/>
+  </td>
+  </tr>
+</table>
+
+<h4>Downloads:</h4>
+<table summary="Package CASdatasets downloads">
+<tr> <td valign="top"> Package&nbsp;source: </td> 
+    <td> <a href="./pub/src/contrib/CASdatasets_1.2-0.tar.gz"> CASdatasets_1.2-0.tar.gz </a> </td> </tr>
+<tr> <td valign="top"> Package&nbsp;installation: </td> <td>
+    <b>Please make sure that <a href="https://cran.r-project.org/package=xts">xts</a>, 
+    <a href="https://cran.r-project.org/package=zoo">zoo</a> packages are installed.</b>
+    Use this R repository within R via
+    <pre class="scode">
+        install.packages("CASdatasets", repos = "https://freakonometrics.github.io/CASdatasets/pub/R/", type="source")
+        library(CASdatasets)
+        ?CASdatasets
+    </pre>
+    </td> </tr>
+<!--    
+<tr> <td valign="top"> Windows&nbsp;binaries: </td> <td> r-release: <a href="./pub/bin/windows/contrib/4.2/CASdatasets_1.0-12.zip">CASdatasets_1.0-12.zip</a> </td> </tr>
+<tr> <td valign="top"> OS&nbsp;X&nbsp;binaries: </td> <td> r-release: <a href="./pub/bin/macosx/contrib/4.2/CASdatasets_1.0-12.tgz">CASdatasets_1.0-12.tgz</a> </td> </tr>
+-->
+
+</table>
+
+<h4>Misc:</h4>
+<table summary="Package CASdatasets misc.">
+<tr><td valign="top">Contests, case studies, benchmarks or education usage:</td></tr>
+</table>
+<ul>
+    <li><a href="https://www.kaggle.com/floser/french-motor-claims-datasets-fremtpl2freq">Kaggle</a> contest and
+        a corresponding notebook <a href="https://www.kaggle.com/floser/glm-neural-nets-and-xgboost-for-insurance-pricing">with
+        GLM, Neural Nets and XGBoost</a>,</li>
+    <li><a href="https://www.actuarialdatascience.org/ADS-Tutorials/">ADS</a>: the Swiss Association of Actuaries' Initiative,</li>
+    <li><a href="https://github.com/DeutscheAktuarvereinigung">DAV</a>: the Data Science Challenges of the German Association of Actuaries,</li>
+    <li>Nesting Classical Actuarial Models into Neural Networks published by <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3320525">Schelldorfer, Wuthrich (2019)</a>
+        on SSRN,</li>
+    <li>scikitlearn:
+        <a href="https://github.com/scikit-learn/scikit-learn/pull/9405#issuecomment-483000516">benchmarks</a> and
+        <a href="https://github.com/lorentzenchr/Tutorial_freMTPL2">tutorial</a> for GLMs.</li>
+    <li>Datasets used in some actuarial programs :
+        <a href="https://mido.dauphine.fr/fr/formations-et-diplomes/masters-2/master-2-mathematiques-et-applications/parcours-actuariat/presentation.html">Dauphine</a> Paris, France,
+        <a href="https://mathinfo.unistra.fr/duas/">DUAS</a> Strasbourg, France,
+        <a href="https://www.ensae.fr/actuariat/">ENSAE</a> Paris, France,
+        <a href="https://isfa.univ-lyon1.fr/">ISFA</a> Lyon, France,
+        <a href="https://www.act.ulaval.ca/">Univ. Laval</a> Queb&eacute;c, Canada,
+        <a href="https://actuariat.uqam.ca/">UQAM</a> Montr&eacute;al, Canada,</li>
+</ul>
+</body>
+</html>
