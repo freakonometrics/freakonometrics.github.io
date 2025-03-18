@@ -1,0 +1,63 @@
+---
+title: "SCOR Conference, May 15"
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    css: styles.css
+editor: visual
+---
+
+```{r load_packages, message=FALSE, warning=FALSE, include=FALSE}
+library(fontawesome)
+library(leaflet)
+library(htmlwidgets)
+library(htmltools)
+library(dplyr)
+```
+
+
+The event will be free, but registration is mandatory.
+
+## Registration
+
+Registration is on [eventbrite](https://www.eventbrite.fr/e/confidence-and-fairness-scientific-foundations-in-ai-and-risk-tickets-1203265412239?aff=oddtdtcreator)
+
+
+## Speakers and Abstract
+
+`r fa("caret-right", fill = "steelblue")` **Arthur Charpentier** (UQAM, Canada) [`r fa("file-code", fill = "steelblue")`](https://freakonometrics.github.io/)
+
+> **Fairness of predictive models: an application to insurance markets**<br/> "*abstract.....*"
+
+
+`r fa("caret-right", fill = "steelblue")` **Toon Calders** (University of Antwerp, Antwerp, Belgium) [`r fa("file-code", fill = "steelblue")`](https://www.uantwerpen.be/nl/personeel/toon-calders/)
+
+> **Unfair, You Say? Explain Yourself!**<br/> "*In this talk, we explore recent findings in the field of fairness in decision-making systems. We highlight two key challenges: (1) datasets that appear similar may actually result from different types of biases, each requiring a unique approach to mitigation; and (2) even when the correct bias is identified, simply optimizing fairness metrics across groups can lead to unintended and potentially harmful consequences. These challenges suggest that fairness cannot be fully achieved through technology alone. Instead, human judgment plays a crucial role. We argue that providing explanations is essential to fostering fair decision-making systems. To illustrate this point, we present findings from a preliminary study where counterfactual explanations were used to improve fairness outcomes.*"
+
+
+`r fa("caret-right", fill = "steelblue")` **Jean Michel Loubes** (INRIA, Toulouse, France) [`r fa("file-code", fill = "steelblue")`](https://perso.math.univ-toulouse.fr/loubes/)
+
+> **Title**<br/> "*abstract tbc*"
+
+
+`r fa("caret-right", fill = "steelblue")` **Evgenii Chzhen** (CNRS, Université Paris-Saclay, Paris, France) [`r fa("file-code", fill = "steelblue")`](https://echzhen.com/)
+
+> **An optimization approach to post-processing for classification with system constraints**<br/> "*In this talk, I will discuss multi-class classification problems under various probabilistic constraints, including different notions of group fairness, classification with abstention, and set-valued classification, among others. By relaxing deterministic classifiers to randomized ones, I will introduce an algorithm that modifies any off-the-shelf deterministic classifier to meet the desired constraints. The algorithm is based on a tailored version of stochastic gradient descent designed for finding stationary points of convex smooth functions. It offers finite-sample post-processing guarantees and can be applied to streaming data. A particularly attractive feature of this method is that it requires only unlabeled data for post-processing.*"
+
+
+`r fa("caret-right", fill = "steelblue")` **Michele Loi** (Algorithmwatch.org, Milano, Italy) [`r fa("file-code", fill = "steelblue")`](https://algorithmwatch.org/en/team/michele-loi/)
+
+> **From Facts to Fairness: Diagnostic Models in Algorithmic Decision-Making**<br/> "*This talk explores two distinct ways information can be diagnostic rather than merely predictive in decision-making contexts, with direct implications for algorithmic fairness and bias mitigation in AI systems. First, information can be diagnostic when it is causally downstream from the facts we aim to establish - like fingerprints left by a perpetrator. Second, our causal models themselves can be diagnostic when they capture person-specific facts rather than general statistical relationships. For instance, knowing a size 44 footprint was found at a crime scene lets us reason about how that specific shoe size causally contributed to this crime, rather than relying on general correlations between shoe sizes and criminality. This dual understanding of diagnosticity - both of information and models - offers new ways to think about fairness and discrimination in automated decision systems. It suggests that fairness concerns about using protected characteristics may be alleviated when these characteristics are incorporated into truly diagnostic rather than merely predictive models. This has important implications for the development of fair AI systems in high-stakes domains like criminal justice, lending, and insurance. The talk draws from joint work with Nicolò Cangiotti and Marcello Di Bello (submitted February 2024, revised August 2024) that develops these ideas in the broader context of algorithmic fairness and equal protection.*"
+
+
+`r fa("caret-right", fill = "steelblue")` **Isabel Valera** (Saarland University, Saarbrücken, Germany) [`r fa("file-code", fill = "steelblue")`](https://ivaleram.github.io/)
+
+> **Society-centered AI: An Integrative Perspective on Algorithmic Fairness**<br/> "*In this talk, I will share my never-ending learning journey on algorithmic fairness. I will give an overview of fairness in algorithmic decision making, reviewing the progress and wrong assumptions made along the way, which have led to new and fascinating research questions. Most of these questions remain open to this day, and become even more challenging in the era of generative AI. Thus, this talk will provide only few answers but many open challenges to motivate the need for a paradigm shift from owner-centered to society-centered AI. With society-centered AI, I aim to bring the values, goals, and needs of all relevant stakeholders into AI development as first-class citizens to ensure that these new technologies are at the service of society.*"
+
+
+`r fa("caret-right", fill = "steelblue")` **Evgenii Chzhen** (Milliman, Paris, France) [`r fa("file-code", fill = "steelblue")`](https://curiousml.github.io/)
+
+> **Fairness in Insurance Markets**<br/> "*abstract tbc*"
+
+
